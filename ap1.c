@@ -16,7 +16,7 @@
     printf("[----- [최나현] [2023041039] -----]\n");
     printf("list[0]            = %d\n", list[0]); // list 배열의 첫 번째 요소 출력
     printf("&list[0]           = %p\n", &list[0]); // list 배열의 첫 번째 요소 주소 출력
-    printf("list               = %p\n", list); // list 배열의 시작 주소 출력 (&list[0]과 같음) 
+    printf("list               = %p\n", list); // list 배열의 시작 주소(이름) 출력 (&list[0]과 같음) 
     printf("&list              = %p\n", &list); // list 배열의 주소 출력(list 배열의 시작 주소와 같음)
     printf("----------------------------------------\n\n");
     
@@ -29,7 +29,7 @@
     printf("*plist[0]          = %d\n", *plist[0]); //plist[0]이 가리키는 주소의 값 출력
     printf("&plist[0]          = %p\n", &plist[0]); // plist[0]의 주소 출력
     printf("&plist = %p\n", &plist); //plist 배열의 주소 출력(plist 시작 주소와 같음)
-    printf("plist = %p\n", plist); //plist 배열의 시작 주소 출력
+    printf("plist = %p\n", plist); //plist 배열의 시작 주소(이름) 출력
     printf("plist[0]           = %p\n", plist[0]); // plist[0]이 가리키는 주소 출력
     printf("plist[1]           = %p\n", plist[1]); // plist[1]의 값 출력 (NULL로 초기화 되어있다)
     printf("plist[2]           = %p\n", plist[2]); // plist[2]의 값 출력 (NULL로 초기화 되어있다)
